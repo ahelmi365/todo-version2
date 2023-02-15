@@ -40,6 +40,7 @@ export default function TodoItem({ todoItem, setTodoItem, addTodoItem }) {
             type="text"
             placeholder="to do?"
             ref={todoInputValRef}
+            autoFocus
           />
           <input
             name="itemBy"
