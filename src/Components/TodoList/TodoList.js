@@ -40,7 +40,7 @@ export default function TodoList({
         </div>
       ) : (
         <div className="no-todo-items">
-          <p>No Items to be shwon</p>
+          <p>No Items to be Shown</p>
         </div>
       )}
     </div>
