@@ -1,0 +1,61 @@
+.todo-list-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 12px;
+    /* margin: 1rem 0 ; */
+    /* width: 65%; */
+}
+
+.todo-list-container .todo-list-items {
+    width: 100%;
+    padding: 1rem;
+}
+
+.todo-item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+
+}
+
+
+.todo-item-check {
+
+    margin-right: 10px;
+}
+
+.todo-item-text {
+    /* font-size: 1.1rem; */
+
+}
+
+
+.todo-item-text-container * {
+    cursor: pointer;
+
+}
+
+
+
+label.checked {
+    text-decoration: line-through;
+    font-style: italic;
+    color: gray;
+}
+
+.remove-item-btn {
+    background-color: #c82333;
+    color: #fff;
+
+    border: 1px solid #c82333;
+
+    padding: 7px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}

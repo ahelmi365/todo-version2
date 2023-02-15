@@ -1,0 +1,39 @@
+.navbar-container{
+    width: 100%;
+    position: sticky;
+    top:0;
+    left: 0;
+    background-color: aliceblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px 5px 0;
+}
+.app-title{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;  
+    margin: 0;
+}
+
+.navbar-items li {
+    list-style-type: none;
+    padding: .2rem;
+    border: 1px solid gray;
+    border-radius: 12px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+li a{
+    text-decoration: none;
+
+}
