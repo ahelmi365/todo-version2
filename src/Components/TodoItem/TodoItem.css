@@ -32,7 +32,11 @@
    background-color: #007bff;
    border-color: #007bff;
    color: #fff;
+}
 
-
-
+.submit-btn:disabled{
+    background-color: #CCCCCC;
+    color: #666666;
+    border-color:#666666 ;
+    cursor:not-allowed;
 }
