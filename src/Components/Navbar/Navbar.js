@@ -6,7 +6,7 @@ export default function Navbar() {
       <h2 className="app-title">iDo</h2>
       <ul className="navbar-items">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/home">Home</Link>
         </li>
         <li>
           <Link to="/Expense">Expense</Link>
