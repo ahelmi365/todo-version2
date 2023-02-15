@@ -12,7 +12,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/todo-version2" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/Expense" element={<Expense />} />
         <Route path="*" element={<Notfound />} />
