@@ -7,7 +7,7 @@
 
     padding: 1rem;
     border: 1px solid gray;
-    border-radius: 12px;
+    border-radius: 5px;
 }
 
 .get-user-btn {
@@ -17,7 +17,7 @@
 }
 
 .user-img {
-    border-radius: 12px;
+    border-radius: 5px;
     /* border: 1px solid gray; */
     margin-top: 10px;
     padding: 5px;

@@ -20,7 +20,7 @@
 .todo-item-inputs input{
     padding: 10px;
     border: 1px solid gray;
-    border-radius: 12px;
+    border-radius: 5px;
     outline: none;
 }
 

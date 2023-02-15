@@ -3,7 +3,10 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <div className="navbar-container">
-      <h2 className="app-title">iDo</h2>
+      <h2 className="app-title">
+        <Link to="/home">iDo</Link>
+      </h2>
+
       <ul className="navbar-items">
         <li>
           <Link to="/home">Home</Link>

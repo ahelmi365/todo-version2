@@ -3,7 +3,7 @@
     justify-content: center;
     padding: 1rem;
     border: 1px solid gray;
-    border-radius: 12px;
+    border-radius: 5px;
     /* margin: 1rem 0 ; */
     /* width: 65%; */
 }
@@ -56,6 +56,6 @@ label.checked {
     border: 1px solid #c82333;
 
     padding: 7px 10px;
-    border-radius: 12px;
+    border-radius: 5px;
     cursor: pointer;
 }
