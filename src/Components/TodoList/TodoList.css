@@ -10,14 +10,14 @@
 
 .todo-list-container .todo-list-items {
     width: 100%;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .todo-item {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    gap: 5%;
+    gap: 1rem;
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid gray;

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./MousePositionRender.css";
-function GetMousePosition({ render }) {
+function MousePosition({ render }) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
@@ -17,13 +17,13 @@ function GetMousePosition({ render }) {
     };
   }, []);
 
-  return render(mousePosition);
+  return render({mousePosition});
 }
 
 function PannelMouseLoggerRender() {
   return (
-    <GetMousePosition
-      render={(mousePosition) => (
+    <MousePosition
+      render={({mousePosition}) => (
         <div className="pannel-mouse-render-container">
           <p>X:{mousePosition.x}</p>
           <p>Y:{mousePosition.y}</p>
@@ -35,8 +35,8 @@ function PannelMouseLoggerRender() {
 
 function PointMouseLoggerRender() {
   return (
-    <GetMousePosition
-      render={(mousePosition) => (
+    <MousePosition
+      render={({mousePosition}) => (
         <div className="point-mouse-render-container">
           <p>
             ({mousePosition.x}, {mousePosition.y})
