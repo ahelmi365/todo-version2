@@ -23,8 +23,8 @@ export default function Users() {
   return Object.keys(users).length > 0 ? (
     <div className="user-container">
       <div className="user">
-        <h4>Name: {users.name.first}</h4>
-        <h4>Gender: {users.gender}</h4>
+        <h5>Name: {users.name.first}</h5>
+        <h5>Gender: {users.gender}</h5>
         <img className="user-img" src={users.picture.large} alt="" />
       </div>
       <div className="get-user">
