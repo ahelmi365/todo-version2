@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 1rem;
+    padding: 10px;
 
 }
 
@@ -29,33 +29,56 @@
     gap: 1rem;
     width: 100%;
 }
-.left{
-    flex: 1 0 25%;
+
+.left {
+    flex: 1 0 20%;
 }
 
 .right {
-    padding: 1rem;
+    padding: 10px;
     border: 1px solid gray;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: 1 1 70%;
+    flex: 1 1 60%;
 
 }
 
-.bottom {
+
+
+.todos-list {
     width: 100%;
+
 }
+
 
 
 .btn {
     padding: 1px 6px;
     border-width: 1px;
-    border-style:  solid;
+    border-style: solid;
     border-radius: 5px;
     cursor: pointer;
     width: 150px;
     height: 32px;
+}
+
+.week-4{
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+
+.mouse-position-container, .mouse-position-render-container{
+    flex-basis: 45%;
 }

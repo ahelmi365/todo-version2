@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Expense from "./Components//Expense/Expense";
-import Notfound from "./Components/Home/Notfound/Notfound";
+import Notfound from "./Components/Notfound/Notfound";
 
 function App() {
   return (

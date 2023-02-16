@@ -5,6 +5,8 @@ import TodoList from "../TodoList/TodoList";
 import "./Home.css";
 import done_sound from "../../assests/audio/done.mp3";
 import Users from "../Users/Users";
+import MousePosition from "../MousePosition/MousePosition";
+import MousePositionRender from "../MousePositionRender/MousePositionRender";
 
 export default function Home() {
   const [todoItem, setTodoItem] = useState({
@@ -98,12 +100,17 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="bottom">
+        <div className="todos-list">
           <TodoList
+            className="bottom-left"
             toDoItemsList={toDoItemsList}
             removeToDoItem={removeToDoItem}
             setTodoItemDone={setTodoItemDone}
           />
+        </div>
+        <div className="week-4">
+          <MousePosition className="week-4-left" />
+          <MousePositionRender className="week-4-right" />
         </div>
       </main>
 

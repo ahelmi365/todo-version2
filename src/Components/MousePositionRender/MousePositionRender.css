@@ -1,0 +1,27 @@
+.mouse-position-render-container {
+    padding: 5px;
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+
+}
+
+.pannel-mouse-render-container,
+.point-mouse-render-container {
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.pannel-point-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
